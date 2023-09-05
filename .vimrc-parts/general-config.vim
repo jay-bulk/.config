@@ -28,6 +28,7 @@ filetype on
 filetype plugin on
 filetype indent on
 set number
+set relativenumber
 set wildmenu
 let g:airline_theme='one'
 autocmd BufRead,BufNewFile *.md setlocal spell
