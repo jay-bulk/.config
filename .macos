@@ -67,7 +67,7 @@ eval "$(ssh-agent -s)"
 echo "run 'pbcopy < ~/.ssh/id_rsa.pub' and paste that into GitHub"
 
 echo "cloning dotfiles"
-git clone git@github.com:jay-bulk/dotfiles.git "${HOME}/dotfiles"
+git clone git@github.com:jay-bulk/config.git "${HOME}/dotfiles"
 ln -s "${HOME}/config/.zshrc" "${HOME}/.zshrc"
 ln -s "${HOME}/config/.gitignore_global" "${HOME}/.gitignore_global"
 ln -s "${HOME}/config/.gitconfig" "${HOME}/.gitconfig"
